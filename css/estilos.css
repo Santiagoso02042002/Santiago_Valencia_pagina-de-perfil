@@ -2,11 +2,15 @@ nav{
     background-color: rgb(43, 40, 40);
     color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     gap: 15px;
     font-size: 22px;
+}
+
+.perfil{
+    font-size: 26px;
 }
 
 .logout{
@@ -22,7 +26,16 @@ a{
 }
 
 .tarjeta-usuario, .educacion, .solicitudes, .conexiones{
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0px 3px 8px rgb(185, 185, 185);
+}
+
+.educacion, .solicitudes, .conexiones{
+    border-radius: 10px;
+}
+
+.solicitudes, .conexiones{
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .tarjeta-usuario{
@@ -54,6 +67,7 @@ a{
 
 img{
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .editar-perfil{
@@ -61,4 +75,74 @@ img{
     margin-bottom: 50px;
     margin-left: 50px;
     padding: 10px;
+}
+
+.descripcion{
+    padding-right: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 5px;
+}
+
+.contenedor1{
+    flex: 3;
+}
+
+.contenedor2{
+    flex: 2;
+    padding-right: 50px;
+}
+
+.educacion{
+    padding: 10px;
+    margin: 10px;
+}
+
+.lista-edu{
+    padding-left: 0;
+}
+
+.conexion{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.listas-cont2{
+    padding-left: 0;
+}
+
+.en-linea{
+    text-decoration: underline;
+    color: green;
+}
+
+.desconectado{
+    text-decoration: underline;
+    color: red;
+}
+
+.boton-acept, .boton-reject{
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.boton-acept{
+    background-color: green;
+    color: white;
+}
+
+.boton-reject{
+    background-color: red;
+    color: white;
 }

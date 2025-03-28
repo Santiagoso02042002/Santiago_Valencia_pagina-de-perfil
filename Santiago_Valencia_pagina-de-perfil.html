@@ -8,37 +8,56 @@
 </head>
 <body>
     <nav class="barra-nav">
-        <a href="#" class="perfil">Perfil</a>
-        <a href="#" class="inicio">Inicio</a>
+        <div><a href="#" class="perfil">Perfil</a></div>
+        <div><a href="#" class="inicio">Inicio</a>
         <a href="#" class="mi-perfil">Mi perfil</a>
         <a href="#" class="encontrar-conexiones">Encontrar Conexiones</a>
-        <button class="logout">Cerrar Sesión</button>
+        <button class="logout">Cerrar Sesión</button></div>
     </nav>
     <main class="container">
-        <div class="tarjeta-usuario">
-            <div class="barra-azul"></div>
-            <div class="imagen"><img src="./img/yo.jpg" alt="Foto de perfil" width="150px" height="150px"></div>
-            <div class="contenedor">
-                <h1 class="nombre">Santiago Valencia</h1>
-                <h3 class="lugar-origen">Santiago de Cali, Colombia</h3>
-                <h3 class="profesion">Desarrollador Java Full Stack Junior | Músico | Basquetbolista</h3>
-                <p class="descripcion">Estudiante del programa "Tu Futuro + Bootcamp" de la fundación Forge en colaboración
-                    con Ford. Músico graduado del IPC, con mención en piano, amante de la salsa. Cuando no está en las blancas
-                    y negras está en la pista de baile. Jugador de baloncesto, base/escolta con casi 10 años de trayectoria.
-                </p>
+        <div class="contenedor1">
+            <div class="tarjeta-usuario">
+                <div class="barra-azul"></div>
+                <div class="imagen"><img src="./img/yo.jpg" alt="Foto de perfil" width="150px" height="150px"></div>
+                <div class="contenedor">
+                    <h1 class="nombre">Santiago Valencia</h1>
+                    <h3 class="lugar-origen">Santiago de Cali, Colombia</h3>
+                    <h3 class="profesion">Desarrollador Java Full Stack Junior | Músico | Basquetbolista</h3>
+                    <p class="descripcion">Estudiante del programa "Tu Futuro + Bootcamp" de la fundación Forge en colaboración
+                        con Ford. Músico graduado del IPC, con mención en piano, amante de la salsa. Cuando no está en las blancas
+                        y negras está en la pista de baile. Jugador de baloncesto, base/escolta con casi 10 años de trayectoria.
+                    </p>
+                </div>
+                <button class="editar-perfil">Editar perfil</button>
             </div>
-            <button class="editar-perfil">Editar perfil</button>
+            <div class="educacion">
+                <h2>Educación</h2>
+                <ul class="lista-edu">
+                    <li>Skillnest - Bootcamp Desarrollo Java Full Stack</li>
+                    <li>Marzo 2025 - Actualidad</li>
+                    <li>Conocimiento de JavaScript, HTML, CSS y MySQL</li>
+                </ul>
+            </div>
         </div>
-        <div class="educacion">
-
-        </div>
-        <div class="solicitudes">
-            <ul>Solicitudes de conexión
-                <li></li>
-            </ul>
-        </div>
-        <div class="conexiones">
-
+        <div class="contenedor2">
+            <div class="solicitudes">
+                <h2>Solicitudes de conexión (2)</h2>
+                <ul class="listas-cont2">
+                    <li class="conexion"> <img src="./img/jordan.jpg" alt="Michael Jordan" width="50px" height="50px">Michael Jordan <button class="boton-acept">Aceptar</button><button class="boton-reject">Rechazar</button></li>
+                    <li class="conexion"> <img src="./img/lebron.jpg" alt="Lebron James" width="50px" height="50px">Lebron James <button class="boton-acept">Aceptar</button><button class="boton-reject">Rechazar</button></li>
+                </ul>
+            </div>
+            <div class="conexiones">
+                <h2>Tus Conexiones (500+)</h2>
+                <ul class="listas-cont2">
+                    <li class="conexion"> <img src="./img/shai.jpg" alt="Shai-Gilgeous Alexander" width="50px" height="50px">Shai-Gilgeous Alexander <a href="#" class="desconectado">Desconectado</a></li>
+                    <li class="conexion"> <img src="./img/shaq.png" alt="Shaquille O'Neal" width="50px" height="50px">Shaquille O'Neal <a href="#" class="en-linea">En línea</a></li>
+                    <li class="conexion"> <img src="./img/luka.jpg" alt="Luka Doncic" width="50px" height="50px">Luka Doncic <a href="#" class="desconectado">Desconectado</a></li>
+                    <li class="conexion"> <img src="./img/durant.jpg" alt="Kevin Durant" width="50px" height="50px">Kevin Durant <a href="#" class="en-linea">En línea</a></li>
+                    <li class="conexion"> <img src="./img/curry.jpg" alt="Stephen Curry" width="50px" height="50px">Stephen Curry <a href="#" class="en-linea">En línea</a></li>
+                    <li class="conexion"> <img src="./img/pg.jpg" alt="Paul George" width="50px" height="50px">Paul George <a href="#" class="en-linea">En línea</a></li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>
